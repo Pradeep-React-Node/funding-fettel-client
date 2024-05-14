@@ -1,0 +1,22 @@
+.video-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  /* background-color: #d6f4e7; */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+  font-size: 12px;
+}
